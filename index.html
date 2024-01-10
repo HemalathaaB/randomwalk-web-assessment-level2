@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="game">
+    <div class="grid" id="grid">
+      <!-- Individual cells -->
+      <!-- Grid layout to contain the Tic Tac Toe cells -->
+      <div class="cell" id="0"></div> <!-- Each cell represents a spot on the game grid -->
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+    </div>
+    <div class="scoreboard">
+      <!-- Display scores and current player -->
+      <p>Player X: <span id="playerX">0</span></p>
+      <p>Player O: <span id="playerO">0</span></p>
+      <p id="currentPlayerDisplay">Current player: <span id="currentPlayer">X</span></p>
+      <!-- Buttons to reset the game or start again -->
+      <button id="resetButton">Reset Game</button>
+      <button id="startAgainButton">Start Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script> <!-- Link to external JavaScript file for game logic -->
+</body>
+</html>
+
+
+
+
+
+
+

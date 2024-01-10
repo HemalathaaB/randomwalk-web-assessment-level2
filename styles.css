@@ -1,0 +1,78 @@
+/* Apply general styles to the entire page */
+body {
+  font-family: Arial, sans-serif; /* Use Arial font family */
+  text-align: center; /* Center-align text */
+  background-color: black; /* Set the background color to black */
+}
+
+/* Styles for the main heading */
+h1 {
+  margin-bottom: 20px; /* Add space below the heading */
+  color: antiquewhite; /* Set heading color to antique white */
+}
+
+/* Styles for the main game container */
+.game {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center-align children horizontally */
+}
+
+/* Styles for the grid of cells */
+.grid {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(3, 100px); /* Three columns with 100px width each */
+  grid-gap: 5px; /* Gap between grid cells */
+  margin-bottom: 20px; /* Add space below the grid */
+}
+
+/* Styles for individual cells */
+.cell {
+  width: 100px; /* Set cell width */
+  height: 100px; /* Set cell height */
+  background-color: teal; /* Set default background color for cells */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-size: 2em; /* Set font size */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Alternate styling for even cells */
+.cell:nth-child(even) {
+  background-color: peachpuff; /* Set background color for even cells */
+}
+
+/* Hover effect for cells */
+.cell:hover {
+  background-color: #ddd; /* Lighten cell background on hover */
+}
+
+/* Styles for the scoreboard */
+.scoreboard {
+  margin-bottom: 20px; /* Add space below the scoreboard */
+  color: antiquewhite; /* Set text color for the scoreboard */
+}
+
+/* Styles for buttons */
+button {
+  padding: 10px 20px; /* Set padding for buttons */
+  font-size: 1em; /* Set font size for buttons */
+  cursor: pointer; /* Show pointer cursor on hover */
+  margin: 5px; /* Add margin around buttons */
+  border: none; /* Remove button borders */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: red; /* Set button background color to red */
+  color: white; /* Set text color for buttons */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #3367D6; /* Change background color on hover */
+}
+
+  
+  
+  
+  
+  
